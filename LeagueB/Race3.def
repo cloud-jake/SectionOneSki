@@ -1,0 +1,38 @@
+{
+  "googleSheetsOptions": {
+    "skipLeadingRows": 1,
+    "range": "GS 1.30"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "Gender",
+        "type": "STRING"
+      },
+      {
+        "name": "Bib",
+        "type": "STRING"
+      },
+      {
+        "name": "Name",
+        "type": "STRING"
+      },
+      {
+        "name": "Team",
+        "type": "STRING"
+      },
+      {
+        "name": "Run1",
+        "type": "STRING"
+      },
+      {
+        "name": "Run2",
+        "type": "STRING"
+      }
+    ]
+  },
+  "sourceFormat": "GOOGLE_SHEETS",
+  "sourceUris": [
+    "https://docs.google.com/spreadsheets/d/1EQ3Hleb_0vD3pu5TrMnarQ-EGgTf0h9_2es9UxoLd0c/edit?usp=sharing"
+  ]
+}

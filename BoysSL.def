@@ -1,0 +1,34 @@
+{
+  "googleSheetsOptions": {
+    "skipLeadingRows": 1,
+    "range": "Boys SL"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "Bib",
+        "type": "STRING"
+      },
+      {
+        "name": "Name",
+        "type": "STRING"
+      },
+      {
+        "name": "Team",
+        "type": "STRING"
+      },
+      {
+        "name": "Run1",
+        "type": "STRING"
+      },
+      {
+        "name": "Run2",
+        "type": "STRING"
+      }
+    ]
+  },
+  "sourceFormat": "GOOGLE_SHEETS",
+  "sourceUris": [
+    "https://docs.google.com/spreadsheets/d/1aZQnemsVxA2eQG6b1VQcx7GQSBkx5-uXHPl4abGTv9k/edit?usp=sharing"
+  ]
+}
